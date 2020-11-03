@@ -49,7 +49,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight-10);
  // obstacle1.debug=true;
  
-  trex = createSprite(windowWidth-1200,0,0,0);  
+  trex = createSprite(windowWidth-500,0,0,0);  
   trex.addAnimation("running", trex_running);
   trex.addAnimation("collided", trex_collided);
   
